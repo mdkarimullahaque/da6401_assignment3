@@ -18,7 +18,7 @@ You can run and train the model by two ways. <br>
 - Using main.ipynb file.
 - Using train.py
 
-**Download the *[main.ipynb](main.ipynb)* file and run it on Google Colab or Kaggle using the provided *[Dakshina dataset](https://storage.googleapis.com/gresearch/dakshina/dakshina_dataset_v1.0.tar)*.** <br>
+**Download the *[DL_Ass3.ipynb](DL_Ass3.ipynb)* file and run it on Google Colab or Kaggle using the provided *[Dakshina dataset](https://storage.googleapis.com/gresearch/dakshina/dakshina_dataset_v1.0.tar)*.** <br>
 Note that the source file paths in the ipynb file is corresponding to Kaggle as the code has been trained and run in Kaggle environment. 
 
 Alternatively, <br>
