@@ -3,16 +3,15 @@
 MD Karimulla Haque MA23C021
 # Transliteration System using RNN, GRU & LSTM with Encoder-Decoder Seq2Seq Models (with and without Attention)
 
-WANDB Report Link: https://wandb.ai/mdkarimullahaque-iit-madras/DL_Assignment_3?nw=nwusermdkarimullahaque
+WANDB Report Link: https://wandb.ai/mdkarimullahaque-iit-madras/DL_Assignment_3/reports/MA23C021-DA6401-Assignment-3--VmlldzoxMjgzNDU5Mg
 
 ## Project Description:
 This project aims to build a transliteration system that converts text from one script to another while preserving its phonetic structure. The system leverages advanced neural network architectures, including Recurrent Neural Networks (RNNs), Gated Recurrent Units (GRUs), and Long Short-Term Memory networks (LSTMs). Using encoder-decoder sequence-to-sequence (Seq2Seq) models, the project explores both the conventional approach and enhanced versions incorporating attention mechanisms to improve accuracy. By comparing these different models, the project seeks to identify the most effective method for transliterating text between various languages from the [Dakshina dataset](https://github.com/google-research-datasets/dakshina) released by Google. Hyperparameter tuning is done using wandb to find the best performing configurations.
 
 ## Files info 
-1. [main.ipynb](main.ipynb) - The main ipynb file containing the source code along with wandb sweeps for hyperparameter tuning
-2. [train.py](train.py) - Python file to train and run the code
-3. [prediction_vanilla.csv](predictions_vanilla/prediction_vanilla.csv) - Predicted data of the test set without attention
-4. [attention_predictions.csv](predictions_attention/attention_predictions.csv) - Predictions of the test set with Attention
+1. [DL_Ass3.ipynb](DL_Ass3.ipynb) - The main ipynb file containing the source code along with wandb sweeps for hyperparameter tuning
+2. [dl_ass3.py](dl_ass3.py) - Python file to train and run the code
+
 
 ## Usage
 You can run and train the model by two ways. <br>
